@@ -39,7 +39,7 @@ if selected=="Home":
             """
         )
 
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Art.png')
+    image='Art.png'
 
     with right_column:
         st.image(image)
@@ -66,7 +66,7 @@ if selected=="Home":
 from PIL import Image
 
 #st.sidebar.write("About me, what I do, product examples, more info", width=180)
-image=Image.open('C:/Users/Alaina Martine/Downloads/House.png')
+imageh='House.png'
 if selected=="Projects":
     st.title(f"{selected}")
     with st.container():
@@ -75,7 +75,7 @@ if selected=="Projects":
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Environment Painting')
+        st.image(imageh, caption='Environment Painting')
     with text_column:
         st.write(
             """
@@ -87,12 +87,12 @@ if selected=="Projects":
             150 DKK
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Colors.png')
+    imagec='Colors.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Abstract Art')
+        st.image(imagec, caption='Abstract Art')
     with text_column:
         st.write(
             """
@@ -103,12 +103,12 @@ if selected=="Projects":
             """
         )
 
-    image=Image.open('C:/Users/Alaina Martine/Downloads/People.png')
+    imagep='People.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='People Paintings')
+        st.image(imagep, caption='People Paintings')
     with text_column:
         st.write(
             """
@@ -120,14 +120,14 @@ if selected=="Projects":
 
     
     
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Face.png')
+    imagef='Face.png'
     with st.container():
         st.write("---")
         st.header("My Photography")
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Color Photos')
+        st.image(imagef, caption='Color Photos')
     with text_column:
         st.write(
             """
@@ -137,12 +137,12 @@ if selected=="Projects":
             100 DKK
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Black.png')
+    imageb='Black.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Black and White Photos')
+        st.image(imageb, caption='Black and White Photos')
     with text_column:
         st.write(
             """
@@ -151,12 +151,12 @@ if selected=="Projects":
             120 DKK
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Nature.png')
+    imagen='Nature.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Nature Photos')
+        st.image(imagen, caption='Nature Photos')
     with text_column:
         st.write(
             """
@@ -166,14 +166,14 @@ if selected=="Projects":
             75 DKK
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Smooth pots.png')
+    images='Smooth pots.png'
     with st.container():
         st.write("---")
         st.header("My Pottery")
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Smooth Pots')
+        st.image(images, caption='Smooth Pots')
     with text_column:
         st.write(
             """
@@ -184,12 +184,12 @@ if selected=="Projects":
 
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Rough pots.png')
+    imager='Rough pots.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Rough Pots')
+        st.image(imager, caption='Rough Pots')
     with text_column:
         st.write(
             """
@@ -199,12 +199,12 @@ if selected=="Projects":
             60 DKK
             """
         )
-    image=Image.open('C:/Users/Alaina Martine/Downloads/Pink.png')
+    imagep='Pink.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(image, caption='Candles')
+        st.image(imagep, caption='Candles')
     with text_column:
         st.write(
             """
