@@ -151,10 +151,10 @@ if selected == "Projects":
         else:
             if 59 < price < 75:
                 candle()
-            elif 9 < price < 80:
+            elif 59 < price < 80:
                 candle()
                 flowers()
-            elif 9 < price < 201:
+            elif 59 < price < 201:
                 candle()
                 flowers()
                 ceramica()
