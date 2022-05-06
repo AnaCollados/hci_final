@@ -1,6 +1,7 @@
 import streamlit as st
 import webbrowser
 from streamlit_option_menu import option_menu
+from bokeh.models.widgets import Div
 
 st.set_page_config(layout='wide')
 
@@ -15,9 +16,9 @@ def sidebar():
     st.sidebar.markdown("#### Do you want help a local artist? :coffee:")
     if st.sidebar.button('Buy me a coffee'):
         js = "window.open('https://ko-fi.com/anadetoro')"  # New tab or window
-        #html = '<img src onerror="{}">'.format(js)
-        #div = Div(text=html)
-        st.bokeh_chart(js)
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
 
 
 sidebar()
