@@ -184,7 +184,7 @@ if selected=="Projects":
 
             """
         )
-    imager='Rough_pots.png'
+    imager='Rough_Pots.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
