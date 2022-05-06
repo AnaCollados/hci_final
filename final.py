@@ -145,8 +145,8 @@ if selected == "Projects":
 
     if 'Pottery' in initial:
         if tick:
-            candle()
             flowers()
+            candle()
             ceramica()
         else:
             if 59 < price < 75:
