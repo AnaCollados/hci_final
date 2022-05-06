@@ -1,7 +1,6 @@
 import streamlit as st
 import webbrowser
 from streamlit_option_menu import option_menu
-# from bokeh.models.widgets import Div
 
 st.set_page_config(layout='wide')
 
@@ -15,13 +14,7 @@ def sidebar():
                      "so I hope you find the piece that speaks to you.")
     st.sidebar.markdown("#### Do you want help a local artist? :coffee:")
     link = '[Buy me a coffe](https://ko-fi.com/anadetoro)'
-    st.markdown(link, unsafe_allow_html=True)
-#     if st.sidebar.button('Buy me a coffee'):
-#         js = "window.open('https://ko-fi.com/anadetoro')"  # New tab or window
-#         html = '<img src onerror="{}">'.format(js)
-#         div = Div(text=html)
-#         st.bokeh_chart(div)
-
+    st.sidebar.markdown(link, unsafe_allow_html=True)
 
 sidebar()
 
@@ -234,13 +227,11 @@ if selected == "About":
     st.subheader('My social media')
     col31, col32, col33, col34, col35, col36 = st.columns(6)
     with col31:
-        url1 = 'https://www.instagram.com/anadetg'
-        if st.button('Instagram'):
-            webbrowser.open_new_tab(url1)
+        link1 = '[My Instagram](https://www.instagram.com/anadetg/)'
+        st.markdown(link1, unsafe_allow_html=True)
     with col32:
-        url2 = 'website'
-        if st.button('Real website'):
-            webbrowser.open_new_tab(url2)
+        link2 = '[My Real Webpage](https://www.anadetoro.com/)'
+        st.markdown(link2, unsafe_allow_html=True)
     st.subheader('More about the investigation')
     with st.expander('Purpose investigation'):
         st.write('The purpose of this investigation is blablabla')
