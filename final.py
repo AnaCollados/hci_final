@@ -59,7 +59,7 @@ if selected == "Projects":
         initial = st.multiselect('What do you want to see?', ['Paints', 'Pottery', 'Photography'], ['Paints'])
         tick = st.checkbox('Show all')
     with cola:
-        price = st.slider('Maximum price', 0, 50, 200)
+        price = st.slider('Maximum price', 50, 200, 100)
         st.markdown('💵 Maximum of ' f'**{price}**' ' **kroner** 💵')
 
     # Columns;
