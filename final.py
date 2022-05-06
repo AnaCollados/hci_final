@@ -119,20 +119,20 @@ if selected == "Projects":
                 houses()
 
     def flowers():
-        col9.image('flores.PNG')
-        col10.header('- Flowers -')
-        col10.write('Here are my rough pots. On these you can choose a particular pattern.')
+        col7.image('flores.PNG')
+        col8.header('- Flowers -')
+        col8.write('Here are my rough pots. On these you can choose a particular pattern.')
         pric = 60
-        col10.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col10.button('Buy this item', key='<klokk>')
+        col8.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
+        col8.button('Buy this item', key='<klokk>')
         
     def candle():
-        col7.image('candle.PNG')
-        col8.header('- Candles -')
-        col8.write('Here are my Candles. On these you can choose a particular color.')
+        col9.image('candle.PNG')
+        col10.header('- Candles -')
+        col10.write('Here are my Candles. On these you can choose a particular color.')
         pric = 75
-        col8.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col8.button('Buy this item', key='<klkkk>')
+        col10.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
+        col10.button('Buy this item', key='<klkkk>')
 
     def ceramica():
         col11.image('ceramica.PNG')
