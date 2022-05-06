@@ -166,7 +166,7 @@ if selected=="Projects":
             75 DKK
             """
         )
-    images='Smooth pots.png'
+    images='Smooth_pots.png'
     with st.container():
         st.write("---")
         st.header("My Pottery")
@@ -184,7 +184,7 @@ if selected=="Projects":
 
             """
         )
-    imager='Rough pots.png'
+    imager='Rough_pots.png'
     with st.container():
         st.write("##")
     image_column, text_column = st.columns((1,2))
