@@ -15,9 +15,9 @@ def sidebar():
     st.sidebar.markdown("#### Do you want help a local artist? :coffee:")
     if st.sidebar.button('Buy me a coffee'):
         js = "window.open('https://ko-fi.com/anadetoro')"  # New tab or window
-        html = '<img src onerror="{}">'.format(js)
-        div = Div(text=html)
-        st.bokeh_chart(div)
+        #html = '<img src onerror="{}">'.format(js)
+        #div = Div(text=html)
+        st.bokeh_chart(js)
 
 
 sidebar()
