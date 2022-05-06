@@ -166,7 +166,7 @@ if selected=="Projects":
             75 DKK
             """
         )
-    images='Smooth_pots.png'
+    images='Smooth_Pots.png'
     with st.container():
         st.write("---")
         st.header("My Pottery")
