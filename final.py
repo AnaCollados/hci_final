@@ -150,13 +150,13 @@ if selected == "Projects":
             ceramica()
         else:
             if 59 < price < 75:
-                candle()
+                flowers()
             elif 59 < price < 80:
-                candle()
                 flowers()
+                candle()
             elif 59 < price < 201:
-                candle()
                 flowers()
+                candle()
                 ceramica()
 
     def nature():
