@@ -234,7 +234,14 @@ if selected == "About":
         st.markdown(link2, unsafe_allow_html=True)
     st.subheader('More about the investigation')
     with st.expander('Purpose investigation'):
-        st.write('The purpose of this investigation is blablabla')
+        st.write('''
+        The purpose of this research is to investigate various website features related to human-computer 
+        interaction and comparing usability and user-engagement between two websites. 
+        The exact components that we are evaluating could not be shared, for the sake of this investigation, but 
+        you could contact the researchers trhough these emails if you want to know more:
+        Ana: 202103220@post.au.dk
+        Alaina: alainamartine@gmail.com
+        ''')
 
 # CONTACT
 if selected == "Contact":
