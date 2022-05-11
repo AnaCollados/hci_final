@@ -13,7 +13,7 @@ def sidebar():
                      "I have worked hard to create all these products with love by hand. Each piece is unique and one-of-a-kind, "
                      "so I hope you find the piece that speaks to you.")
     st.sidebar.markdown("#### Do you want help a local artist? :coffee:")
-    link = '[Buy me a coffe](https://ko-fi.com/anadetoro)'
+    link = '[Buy me a coffee](https://ko-fi.com/anadetoro)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
 
 sidebar()
