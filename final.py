@@ -80,7 +80,8 @@ if selected == "Projects":
         col2.write('Here is a more abstract piece I have made with many colors.')
         pric = 100
         col2.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col2.button('Buy this item', key="<motomami>")
+        if col2.button('Buy this item', key="<motomami>"):
+            st.write('This is not a real link, but thanks for clicking')
 
     def people():
         col3.image('people.PNG')
