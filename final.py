@@ -89,7 +89,8 @@ if selected == "Projects":
         col4.write('I do personal paintings with people in them.')
         pric = 125
         col4.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col4.button('Buy this item', key="<bro>")
+        if col4.button('Buy this item', key="<bro>"):
+            col4.write('This is not a real link, but thanks for clicking')
 
     def houses():
         col5.image('casas.PNG')
@@ -101,7 +102,8 @@ if selected == "Projects":
                 This piece portrays a beautiful house in nature.''')
         pric = 150
         col6.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col6.button('Buy this item', key="<klk>")
+        if col6.button('Buy this item', key="<klk>"):
+            col6.write('This is not a real link, but thanks for clicking')
 
     if 'Paints' in initial:
         if tick:
@@ -125,7 +127,8 @@ if selected == "Projects":
         col8.write('Here are my rough pots. On these you can choose a particular pattern.')
         pric = 60
         col8.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col8.button('Buy this item', key='<klokk>')
+        if col8.button('Buy this item', key='<klokk>'):
+            col8.write('This is not a real link, but thanks for clicking')
         
     def candle():
         col9.image('candle.PNG')
@@ -133,7 +136,8 @@ if selected == "Projects":
         col10.write('Here are my Candles. On these you can choose a particular color.')
         pric = 75
         col10.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col10.button('Buy this item', key='<klkkk>')
+        if col10.button('Buy this item', key='<klkkk>'):
+            col10.write('This is not a real link, but thanks for clicking')
 
     def ceramica():
         col11.image('ceramica.PNG')
@@ -141,8 +145,8 @@ if selected == "Projects":
         col12.write('My newest art is pottery. Here are some of my smooth pots. I do both ringed and simple.')
         pric = 80
         col12.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col12.button('Buy this item',
-                     key="<uniquevalueofsomesort>")  #:cart2: https://icons.getbootstrap.com/ no funciona porque es de css
+        if col12.button('Buy this item', key="<uniquevalueofsomesort>"):
+            col12.write('This is not a real link, but thanks for clicking')
 
     if 'Pottery' in initial:
         if tick:
@@ -166,7 +170,8 @@ if selected == "Projects":
         col14.write('I do nature photos in the setting and lighting of your choice.')
         pric = 75
         col14.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col14.button('Buy this item', key="<keyky>")
+        if col14.button('Buy this item', key="<keyky>"):
+            col14.write('This is not a real link, but thanks for clicking')
 
     def personal():
         col15.image('personal.PNG')
@@ -175,7 +180,8 @@ if selected == "Projects":
             'I do self portrait photography. Some of this includes color photos I can take, including close-ups such as this.')
         pric = 100
         col16.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col16.button('Buy this item', key="<uniqrt>")
+        if col16.button('Buy this item', key="<uniqrt>"):
+            col16.write('This is not a real link, but thanks for clicking')
 
     def other():
         col17.image('other.PNG')
@@ -183,7 +189,8 @@ if selected == "Projects":
         col18.write('I take black and white photos with high-quality lighting.')
         pric = 120
         col18.write('The **price** of this painting is ' f'**{pric}**' ' **kroner.**')
-        col18.button('Buy this item', key="<keykey>")
+        if col18.button('Buy this item', key="<keykey>"):
+            col18.write('This is not a real link, but thanks for clicking')
 
     if 'Photography' in initial:
         if tick:
